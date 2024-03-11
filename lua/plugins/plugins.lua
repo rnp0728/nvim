@@ -49,6 +49,12 @@ return {
         ":ToggleTerm direction='float' terminal path=%:p:h:<cr>",
         desc = "ToggleTerm",
       },
+
+      {
+        "<c-t>",
+        ":ToggleTerm direction='vertical' terminal path=%:p:h:<cr>",
+        desc = "ToggleTerm",
+      },
     },
   },
 }
